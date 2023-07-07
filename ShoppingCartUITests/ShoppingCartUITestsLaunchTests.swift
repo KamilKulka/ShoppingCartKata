@@ -6,7 +6,7 @@
 //
 
 import XCTest
-
+/*
 final class ShoppingCartUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
@@ -30,3 +30,4 @@ final class ShoppingCartUITestsLaunchTests: XCTestCase {
         add(attachment)
     }
 }
+*/

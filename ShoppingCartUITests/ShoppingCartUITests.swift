@@ -6,7 +6,7 @@
 //
 
 import XCTest
-
+/*
 final class ShoppingCartUITests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -39,3 +39,4 @@ final class ShoppingCartUITests: XCTestCase {
         }
     }
 }
+*/

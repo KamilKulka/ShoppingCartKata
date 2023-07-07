@@ -14,6 +14,7 @@
 		CDD72C5F2A5815F5000FD51D /* ShoppingCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C5E2A5815F5000FD51D /* ShoppingCartTests.swift */; };
 		CDD72C692A5815F5000FD51D /* ShoppingCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C682A5815F5000FD51D /* ShoppingCartUITests.swift */; };
 		CDD72C6B2A5815F5000FD51D /* ShoppingCartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C6A2A5815F5000FD51D /* ShoppingCartUITestsLaunchTests.swift */; };
+		CDD72C782A5817E1000FD51D /* ProductCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C772A5817E1000FD51D /* ProductCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CDD72C642A5815F5000FD51D /* ShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD72C682A5815F5000FD51D /* ShoppingCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITests.swift; sourceTree = "<group>"; };
 		CDD72C6A2A5815F5000FD51D /* ShoppingCartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDD72C772A5817E1000FD51D /* ProductCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CDD72C4F2A5815F2000FD51D /* ContentView.swift */,
 				CDD72C512A5815F4000FD51D /* Assets.xcassets */,
 				CDD72C532A5815F4000FD51D /* Preview Content */,
+				CDD72C772A5817E1000FD51D /* ProductCalculator.swift */,
 			);
 			path = ShoppingCart;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD72C502A5815F2000FD51D /* ContentView.swift in Sources */,
+				CDD72C782A5817E1000FD51D /* ProductCalculator.swift in Sources */,
 				CDD72C4E2A5815F2000FD51D /* ShoppingCartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
