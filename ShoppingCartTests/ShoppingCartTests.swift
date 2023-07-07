@@ -15,4 +15,9 @@ final class ShoppingCartTests: XCTestCase {
         let pricePerUnit = PriceCalculator.pricePerUnit(for: product)
         XCTAssertEqual(pricePerUnit, 1.79)
     }
+
+    func testProductFinalPrice() throws {
+        let finalPrice = PriceCalculator.finalPrice(for: product)
+        XCTAssertEqual(finalPrice, 2.17)
+    }
 }
