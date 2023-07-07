@@ -9,10 +9,10 @@ import XCTest
 @testable import ShoppingCart
 
 final class ShoppingCartTests: XCTestCase {
+    private let product = Product(name: "Iceberg", icon: "🥬", cost: 1.55, revenue: 0.15, tax: 0.21)
+
     func testProductPricePerUnit() throws {
-        let cost = 1.55
-        let revenue = 0.15
-        let pricePerUnit = ProductCalculator.pricePerUnit(cost: cost, revenue: revenue)
+        let pricePerUnit = PriceCalculator.pricePerUnit(for: product)
         XCTAssertEqual(pricePerUnit, 1.79)
     }
 }

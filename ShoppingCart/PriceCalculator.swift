@@ -7,9 +7,9 @@
 
 import Foundation
 
-final class ProductCalculator{
-    static func pricePerUnit(cost: Double, revenue: Double) -> Double {
-        var price = cost * (revenue + 1.0)
+final class PriceCalculator {
+    static func pricePerUnit(for product: Product) -> Double {
+        var price = product.cost * (product.revenue + 1.0)
         let roundedPrice = (price * 100).rounded(.up)/100
         return roundedPrice
     }
