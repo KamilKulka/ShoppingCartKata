@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8240443C2A5822BC00EAC32E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240443B2A5822BC00EAC32E /* Product.swift */; };
+		CD30CB1C2A7D010700CB400A /* GameOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30CB1B2A7D010700CB400A /* GameOfLife.swift */; };
+		CD30CB1E2A7D013D00CB400A /* GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30CB1D2A7D013D00CB400A /* GameOfLifeTests.swift */; };
 		CDD72C4E2A5815F2000FD51D /* ShoppingCartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C4D2A5815F2000FD51D /* ShoppingCartApp.swift */; };
 		CDD72C502A5815F2000FD51D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C4F2A5815F2000FD51D /* ContentView.swift */; };
 		CDD72C522A5815F4000FD51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD72C512A5815F4000FD51D /* Assets.xcassets */; };
@@ -16,6 +18,7 @@
 		CDD72C692A5815F5000FD51D /* ShoppingCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C682A5815F5000FD51D /* ShoppingCartUITests.swift */; };
 		CDD72C6B2A5815F5000FD51D /* ShoppingCartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C6A2A5815F5000FD51D /* ShoppingCartUITestsLaunchTests.swift */; };
 		CDD72C782A5817E1000FD51D /* PriceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C772A5817E1000FD51D /* PriceCalculator.swift */; };
+		CDD72C7E2A582F7E000FD51D /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72C7D2A582F7E000FD51D /* ShoppingCart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		8240443B2A5822BC00EAC32E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CD30CB1B2A7D010700CB400A /* GameOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLife.swift; sourceTree = "<group>"; };
+		CD30CB1D2A7D013D00CB400A /* GameOfLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeTests.swift; sourceTree = "<group>"; };
 		CDD72C4A2A5815F2000FD51D /* ShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD72C4D2A5815F2000FD51D /* ShoppingCartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartApp.swift; sourceTree = "<group>"; };
 		CDD72C4F2A5815F2000FD51D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +53,7 @@
 		CDD72C682A5815F5000FD51D /* ShoppingCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITests.swift; sourceTree = "<group>"; };
 		CDD72C6A2A5815F5000FD51D /* ShoppingCartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CDD72C772A5817E1000FD51D /* PriceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCalculator.swift; sourceTree = "<group>"; };
+		CDD72C7D2A582F7E000FD51D /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD30CB1A2A7D00DE00CB400A /* GameOfLive */ = {
+			isa = PBXGroup;
+			children = (
+				CD30CB1B2A7D010700CB400A /* GameOfLife.swift */,
+			);
+			path = GameOfLive;
+			sourceTree = "<group>";
+		};
 		CDD72C412A5815F2000FD51D = {
 			isa = PBXGroup;
 			children = (
+				CD30CB1A2A7D00DE00CB400A /* GameOfLive */,
 				CDD72C4C2A5815F2000FD51D /* ShoppingCart */,
 				CDD72C5D2A5815F5000FD51D /* ShoppingCartTests */,
 				CDD72C672A5815F5000FD51D /* ShoppingCartUITests */,
@@ -104,6 +119,7 @@
 				CDD72C532A5815F4000FD51D /* Preview Content */,
 				CDD72C772A5817E1000FD51D /* PriceCalculator.swift */,
 				8240443B2A5822BC00EAC32E /* Product.swift */,
+				CDD72C7D2A582F7E000FD51D /* ShoppingCart.swift */,
 			);
 			path = ShoppingCart;
 			sourceTree = "<group>";
@@ -120,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				CDD72C5E2A5815F5000FD51D /* ShoppingCartTests.swift */,
+				CD30CB1D2A7D013D00CB400A /* GameOfLifeTests.swift */,
 			);
 			path = ShoppingCartTests;
 			sourceTree = "<group>";
@@ -263,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD72C7E2A582F7E000FD51D /* ShoppingCart.swift in Sources */,
 				CDD72C502A5815F2000FD51D /* ContentView.swift in Sources */,
+				CD30CB1C2A7D010700CB400A /* GameOfLife.swift in Sources */,
 				8240443C2A5822BC00EAC32E /* Product.swift in Sources */,
 				CDD72C782A5817E1000FD51D /* PriceCalculator.swift in Sources */,
 				CDD72C4E2A5815F2000FD51D /* ShoppingCartApp.swift in Sources */,
@@ -274,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD30CB1E2A7D013D00CB400A /* GameOfLifeTests.swift in Sources */,
 				CDD72C5F2A5815F5000FD51D /* ShoppingCartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
